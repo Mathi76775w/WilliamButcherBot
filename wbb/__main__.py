@@ -105,10 +105,10 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="Commands ❓", 
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
+                text="Cᴏᴍᴍᴇɴᴅs", callback_data="bot_commands"
                 url="https://github.com/thehamkercat/WilliamButcherBot",
             ),
         ],
