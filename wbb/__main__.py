@@ -105,25 +105,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", 
+                text="", 
             ),
             InlineKeyboardButton(
                 text="Cᴏᴍᴍᴇɴᴅs", callback_data="bot_commands"
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                "https://github.com/thehamkercat/WilliamButcherBot",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="📡 Uᴘᴅᴀᴛᴇs",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Sᴜᴘᴘᴏʀᴛ 😈", url="http://t.me/WBBSupport"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Cʜᴀᴛ ➕",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -131,9 +131,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    f"Hey there! My name is {BOT_NAME}. advanced telegram Group management with lots of features. "
+    + "✪ Bot For help You Manage & Protect Your Groups. "
+    + "."
 )
 
 
