@@ -109,16 +109,16 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Cᴏᴍᴍᴇɴᴅs", callback_data="bot_commands"
-                "https://github.com/thehamkercat/WilliamButcherBot",
+                
             ),
         ],
         [
             InlineKeyboardButton(
                 text="📡 Uᴘᴅᴀᴛᴇs",
-                callback_data="stats_callback",
+                url="https://t.me/tgcalls_Music_update",
             ),
             InlineKeyboardButton(
-                text="Sᴜᴘᴘᴏʀᴛ 😈", url="http://t.me/WBBSupport"
+                text="Sᴜᴘᴘᴏʀᴛ 😈", url="https://t.me/tgcalls_MusicXchat"
             ),
         ],
         [
@@ -131,8 +131,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. advanced telegram Group management with lots of features. "
-    + "✪ Bot For help You Manage & Protect Your Groups. "
+    f"Hᴇʏ Tʜᴇʀᴇ ! I Aᴍ {BOT_NAME}. Aᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs. "
+    + "✪ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs. "
     + "."
 )
 
@@ -141,20 +141,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="Hᴇʟᴘ ❓",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
+                text="Vᴄ Pʟᴀʏᴇʀ",
                 url="https://github.com/thehamkercat/WilliamButcherBot",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="Sᴛᴀᴛs [sʏsᴛᴇᴍ]",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/tgcalls_MusicXchat"),
         ],
     ]
 )
@@ -215,11 +215,11 @@ async def help_command(_, message):
                 )
             else:
                 await message.reply(
-                    "PM Me For More Details.", reply_markup=keyboard
+                    "Cᴏᴍᴇ Pᴍ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs.", reply_markup=keyboard
                 )
         else:
             await message.reply(
-                "Pm Me For More Details.", reply_markup=keyboard
+                "Cᴏᴍᴇ Pᴍ Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs.", reply_markup=keyboard
             )
     else:
         if len(message.command) >= 2:
