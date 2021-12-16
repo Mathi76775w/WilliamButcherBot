@@ -105,7 +105,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="", 
+                text="Vᴄ ᴘʟᴀʏᴇʀ", 
             ),
             InlineKeyboardButton(
                 text="Cᴏᴍᴍᴇɴᴅs", callback_data="bot_commands"
