@@ -105,7 +105,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Vᴄ ᴘʟᴀʏᴇʀ", 
+                text="Vᴄ ᴘʟᴀʏᴇʀ", url="https://telegra.ph/Vc-player-Commands-12-16-2",
             ),
             InlineKeyboardButton(
                 text="Cᴏᴍᴍᴇɴᴅs", callback_data="bot_commands"
