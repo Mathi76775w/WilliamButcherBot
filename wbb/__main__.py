@@ -151,8 +151,8 @@ keyboard = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="Sᴛᴀᴛs [sʏsᴛᴇᴍ]",
-                callback_data="stats_callback",
+                text="Uᴘᴅᴀᴛᴇs",
+                url=f"https://t.me/tgcalls_Music_update",
             ),
             InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/tgcalls_MusicXchat"),
         ],
