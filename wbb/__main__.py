@@ -132,7 +132,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 
 home_text_pm = (
     f"Hᴇʏ Tʜᴇʀᴇ ! I Aᴍ {BOT_NAME}. Aᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs. "
-    + "✪ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs. "
+    + "[✪](https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg) Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs. "
     + "."
 )
 
@@ -255,7 +255,7 @@ async def help_parser(name, keyboard=None):
     return (
         """𝐇𝐞𝐲 {first_name},  𝐈 𝐚𝐦 {bot_name}.
 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬.
-𝐀𝐥𝐬𝐨 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐬𝐤 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩.
+[➼](https://telegra.ph/file/a895db9b0786df1b57466.jpg)𝐀𝐥𝐬𝐨 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐬𝐤 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩.
 
 """.format(
             first_name=name,
@@ -294,7 +294,7 @@ async def help_button(client, query):
     top_text = f"""
 𝐇𝐞𝐲 {query.from_user.first_name},  𝐈 𝐚𝐦 {BOT_NAME}.
 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬🎀.
-𝐀𝐥𝐬𝐨 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐬𝐤 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩.
+[➼](https://telegra.ph/file/a895db9b0786df1b57466.jpg)𝐀𝐥𝐬𝐨 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐚𝐬𝐤 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐢𝐧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩.
 
 
 General command are:
