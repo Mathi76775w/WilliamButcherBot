@@ -45,9 +45,9 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Github]() | [Group](t.me/PatheticProgrammers)
+    text = f"""[update](https://t.me/tgcalls_MusicXchat) | [Group](t.me/PatheticProgrammers)
 ```----------------
-| Contributors |
+| My repo is private|
 ----------------```
 {list_of_users}"""
     await app.send_message(
