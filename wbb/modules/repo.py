@@ -31,7 +31,7 @@ __MODULE__ = "repo"
 __HELP__ = "/repo - To Get My Github Repository Link " "And Support Group Link"
 
 
-@app.on_message(filters.command("vijay") & ~filters.edited)
+@app.on_message(filters.command("repo") & ~filters.edited)
 @capture_err
 async def repo(_, message):
     users = await get(
